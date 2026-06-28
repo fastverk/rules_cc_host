@@ -17,7 +17,7 @@ polyglot's inline LLVM setup so the pin lives in exactly one place.
 `.bazelrc`:
 
 ```
-common --registry=https://raw.githubusercontent.com/fastverk/bazel-registry/main/
+common --registry=https://registry.fastverk.com/
 common --registry=https://bcr.bazel.build/
 
 # Make bazel's gcc-autodetect (`local_config_cc`) a no-op stub instead
